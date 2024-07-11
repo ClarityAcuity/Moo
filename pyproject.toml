@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+ta-lib = "^0.4.32"
+moomoo-api = "^8.4.4408"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1"
+jupyter = "^1.0.0"
+scipy = "^1.14.0"
+statsmodels = "^0.14.2"
+openpyxl = "^3.1.5"
+ffn = "^1.0.4"
+pyportfolioopt = { version = "1.4.1" , python = ">=3.11,<3.15"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
