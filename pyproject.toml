@@ -17,7 +17,9 @@ scipy = "^1.14.0"
 statsmodels = "^0.14.2"
 openpyxl = "^3.1.5"
 ffn = "^1.0.4"
-pyportfolioopt = { version = "1.4.1" , python = ">=3.11,<3.15"}
+pyportfolioopt = { version = "1.4.1",  python = ">=3.11,<3.15"}
+arch = "^7.0.0"
+mplfinance = "^0.12.10b0"
 
 [build-system]
 requires = ["poetry-core"]

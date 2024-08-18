@@ -1,1 +1,4 @@
 .venv
+dist
+PythonBook_code_data
+__pycache__
